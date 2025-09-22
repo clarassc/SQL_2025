@@ -1,0 +1,20 @@
+    Relacionamento
+- Determine como as tabelas se relacionam entre si.
+- Escreva uma frase para definir essa relação. Exemplo: "Um condutor tem uma carta de condução."
+R: 
+
+Clientes + Faturas
+. Um cliente pode ter várias faturas. ( 1 - n )
+. Uma fatura pertence á um cliente. ( 1 - 1 )
+
+Funcionários + Clientes
+. Vários funcionários tem vários clientes. ( n - n )
+. Um funcionário tem vários clientes. ( 1 - n )
+
+Produtos + Faturas
+.  Muitos produtos pertencem á uma fatura. ( n - 1 )
+. Vários produtos pertencem á várias faturas. ( n - n )
+
+Clientes + Produtos
+. Um cliente tem vários produtos. ( 1 - n )
+. Vários clientes tem vários produtos. ( n - n )
