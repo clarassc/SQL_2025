@@ -1,0 +1,26 @@
+Identificar as chaves necessárias;
+
+Alunos:
+  (id_aluno, nome, data_nascimento, morada, id_curso);
+P.K - id_aluno
+C.C - x
+F.K - id_curso
+
+
+Funcionários:
+  (id_funcionario, nome, departamento, telefone);
+P.K - id_funcionario
+C.C - telefone
+F.K - x
+
+Professores:
+  (id_professor, nome, especialidade, telefone, email, id_funcionario);
+P.K - id_professor
+C.C - telefone, email
+F.K - id_funcionario
+
+Cursos:
+  (id_curso, disciplinas, carga_horaria);
+P.K - id_curso
+C.C - x
+F.K - x
