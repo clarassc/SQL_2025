@@ -1,0 +1,30 @@
+Identifique os atributos necessários para criar uma base de dados de uma escola;
+
+BD (Base de Dados - School)
+Alunos
+Funcionários
+Professores
+Cursos
+
+Alunos
+  Nome
+  ID de Aluno
+  Número de Telemóvel
+  Email
+  Encarregado de Educação
+
+Funcionários
+  Nome
+  Número de Telemóvel
+
+Professores
+  Nome
+  Número de Telemóvel
+  Email
+
+Cursos
+  Nome do Curso
+  Turmas
+  Quantidade de alunos
+                                                               
+  
