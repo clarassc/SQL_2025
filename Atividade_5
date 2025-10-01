@@ -1,4 +1,11 @@
 Identifique os atributos necessários para criar uma base de dados de uma escola;
+- Regra para os atributos de uma tabela:
+1. Apenas uma palavra no nome do atributo.
+2. "ID"_Nome1 (quando é uma identificação única / uniformização de critérios) 
+Exemplo: 
+"Alunos  
+  Alunos_Nome
+  Alunos_Número"
 
 BD (Base de Dados - School)
 Alunos
@@ -8,23 +15,28 @@ Cursos
 
 Alunos
   Nome
-  ID de Aluno
-  Número de Telemóvel
-  Email
-  Encarregado de Educação
+  Número
+  Turma
+  Telefone
+  E.E
 
 Funcionários
   Nome
-  Número de Telemóvel
+  Telefone
+  Morada
+  ID_Funcionários
 
 Professores
   Nome
-  Número de Telemóvel
-  Email
+  Morada
+  Telemóvel
+  ID_Professores
 
 Cursos
-  Nome do Curso
   Turmas
-  Quantidade de alunos
+  Disciplinas
+  D.T
+  ID_Curso
+  
                                                                
   
